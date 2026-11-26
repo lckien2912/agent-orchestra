@@ -1,0 +1,10 @@
+# The repositories this workspace coordinates have their own git: list each
+# folder from .claude/orchestra.json here.
+/backend/
+/frontend/
+
+.DS_Store
+.claude/settings.local.json
+.claude/worktrees/
+.claude/.cc-writes/
+.pnpm-store/

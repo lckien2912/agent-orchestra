@@ -1,0 +1,12 @@
+{
+  "$comment": "Repositories this workspace coordinates. Key = short name used by the commands and scripts (/feature api feat-3); dir = folder next to .claude/; worker = the agent that implements in it. Edit to match your workspace.",
+  "repos": {
+    "api": { "dir": "backend", "worker": "backend-worker" },
+    "ui": { "dir": "frontend", "worker": "frontend-worker" }
+  },
+  "diagrams": {
+    "$comment": "Optional FigJam board for flow and plan diagrams (task-routing §0). Leave empty to keep Mermaid in the slice file only.",
+    "boardUrl": "",
+    "fileKey": ""
+  }
+}
